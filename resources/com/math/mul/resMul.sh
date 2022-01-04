@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "c=$x+$y"
+echo "c=$1+$2"
