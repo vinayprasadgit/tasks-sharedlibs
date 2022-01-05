@@ -1,5 +1,5 @@
 @Library('tasks-sharedlibs') _
-import com.demo.*
+import com.demo.Vehicle.groovy
 pipeline{
     agent any
     stages{
