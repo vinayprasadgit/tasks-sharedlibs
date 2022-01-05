@@ -1,4 +1,5 @@
 import test.*
+import hudson.model.*
 import com.demo.*
     
  
