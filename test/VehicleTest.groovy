@@ -1,4 +1,4 @@
-package test;
+package test
 import groovy.test.GroovyTestCase
 import com.demo.Vehicle
 
