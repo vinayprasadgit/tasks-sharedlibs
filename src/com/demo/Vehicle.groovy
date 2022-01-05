@@ -1,4 +1,6 @@
-class Vehicle{
+package com.demo
+class Vehicle implements Serializable
+{
    String name
    String color
    Vehicle(String name,String color){
