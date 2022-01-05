@@ -1,4 +1,3 @@
-import com.demo.*
 def call()
 {
     
