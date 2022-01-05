@@ -1,4 +1,4 @@
-import test.*
+import test.resources.*
 import com.demo.*
     
  
