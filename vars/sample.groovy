@@ -1,9 +1,10 @@
 import test.*
 import com.demo.*
     
-VehicleTest.testDisplay()   
+ 
 def call()
 {
+    VehicleTest.testDisplay()  
     echo "Hello"
    def res = {
     def v1 = new Vehicle("Benz","Black")
