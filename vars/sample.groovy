@@ -1,4 +1,4 @@
-import com.demo
+import com.demo.Vehicle.groovy
 def call()
 {
   def res = {
