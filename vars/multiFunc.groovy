@@ -1,9 +1,9 @@
-def add(a,b){
+def add(){
   //println a+b
-  echo $(($a+$b))
+  echo "From add"
 }
-def sub(x,y){
+def sub(){
   //println x-y
-  echo $(($x+$y))
+  echo "from sub"
 }
   
