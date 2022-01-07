@@ -1,4 +1,4 @@
-package resources
+package test.resources
 
 import com.demo.Calculation
 import org.junit.Test
