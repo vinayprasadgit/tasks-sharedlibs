@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.RepeatedTest
 import org.junit.jupiter.api.RepetitionInfo
 
-class CalculationTest extends Serialization
+class CalculationTest extends Serializable
 {
     def calc = new Calculation()
     @Test
