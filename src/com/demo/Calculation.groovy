@@ -1,6 +1,6 @@
 package com.demo
 
-class Calculation implements Serialization
+class Calculation implements Serializable
 {
   
     int add(num1,num2)
