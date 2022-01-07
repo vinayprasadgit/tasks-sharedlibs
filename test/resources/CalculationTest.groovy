@@ -1,4 +1,4 @@
-package test.resources
+package resources
 
 import com.demo.Calculation
 import org.junit.Test
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.RepeatedTest
 import org.junit.jupiter.api.RepetitionInfo
 
-class CalculationTest implements Serializable
+class CalculationTest
 {
     def calc = new Calculation()
     @Test
