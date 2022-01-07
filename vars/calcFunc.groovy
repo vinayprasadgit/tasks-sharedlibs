@@ -3,9 +3,9 @@ import com.demo.*
   
 def call()
 {
-  def calcTest = new CalculationTest();
-  calcTest.addTest1()
-  calcTest.addRep()
+//   def calcTest = new CalculationTest();
+//   calcTest.addTest1()
+//   calcTest.addRep()
   
   def calc1 = new Calculation();
   println calc1.add(50,50)
