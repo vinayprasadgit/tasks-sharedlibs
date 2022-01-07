@@ -1,4 +1,7 @@
-class Calculation {
+package com.demo
+
+class Calculation extends Serialization
+{
   
     int add(num1,num2)
     {
