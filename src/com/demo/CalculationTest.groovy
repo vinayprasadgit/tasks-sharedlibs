@@ -14,7 +14,7 @@ class CalculationTest
     @DisplayName("Assert Equals Test Case")
     void addTest1() {
         int output = calc.add(2, 5);
-        Assertions.assertEquals(7, output,()->"Assertion Failed for Addition Test1");
+        Assertions.assertEquals(7, output);
     }
 
     @RepeatedTest(3)
