@@ -1,5 +1,5 @@
 import com.demo.*
-import test.resources.*
+import resources.*
   
 def call()
 {
