@@ -7,5 +7,8 @@ class Vehicle implements Serializable
     this.name=name
     this.color=color
   }
+   String display(){
+      return "Car Name : $name, Car Color : $color"
+   }
 }
   
