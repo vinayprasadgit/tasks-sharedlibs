@@ -1,4 +1,4 @@
-package test.resources
+package resources
 import groovy.test.GroovyTestCase
 import com.demo.Vehicle
 
