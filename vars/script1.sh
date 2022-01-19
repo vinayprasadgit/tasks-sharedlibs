@@ -1,7 +1,7 @@
 #! /bin/bash
 
-val1= 2
-val2= 3
+export name="vinay"
+export sname="vushakola"
 
-echo $val1
-echo $val2
+echo "$name"
+echo "$sname"
