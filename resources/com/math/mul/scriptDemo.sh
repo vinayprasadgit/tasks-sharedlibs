@@ -4,5 +4,5 @@ val1= $1
 val2= $2
 
 echo "Hello"
-echo "${val1}"
-echo "$"{val2}"
+echo "$1"
+echo "$2"
