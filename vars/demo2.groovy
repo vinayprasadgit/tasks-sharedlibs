@@ -1,4 +1,4 @@
 def call(){
-  sh "script.sh"
-  sh "script.sh"
+  sh "vars/script.sh"
+  sh "vars/script.sh"
 }
