@@ -1,5 +1,5 @@
 #!/bin/bash
-# source ./script1.sh
+source ./script1.sh
 
 printenv
 
