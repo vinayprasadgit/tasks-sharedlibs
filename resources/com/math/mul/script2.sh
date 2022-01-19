@@ -1,5 +1,6 @@
-#! /bin/bash
+#!/bin/bash
 
+printenv
 
 echo "This is from script2"
 echo "$VAL1"
