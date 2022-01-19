@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 val1= $1
 val2= $2
