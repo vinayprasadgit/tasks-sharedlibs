@@ -8,4 +8,4 @@ echo "$VAL1"
 echo "$VAL2"
 sum=$(($VAL1 + $VAL2))
 
-# echo "$sum"
+echo "$sum"
