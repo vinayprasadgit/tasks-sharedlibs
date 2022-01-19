@@ -1,7 +1,7 @@
 #! /bin/bash
 
-val1= 2
-val2= 3
+val1= $1
+val2= $2
 
 echo $val1
 echo $val2
