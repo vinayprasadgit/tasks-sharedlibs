@@ -1,9 +1,10 @@
-def call(x,y){
+def call(x,y)
+{
   
-  def content1 = libraryResource "com/math/mul/script1.sh"
+  def content1 = libraryResource "com/math/mul/scriptDemo.sh"
   writeFile file: "script1.sh", text: content1
   sh "chmod a+x ./script1.sh"
-  sh "./script1.sh ${x} ${y}"
+  sh "./scriptDemo.sh ${x} ${y}"
   
 //   def content2 = libraryResource "com/math/mul/script2.sh"
 //   writeFile file: "script2.sh", text: content2
