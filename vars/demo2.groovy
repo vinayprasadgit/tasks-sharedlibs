@@ -1,4 +1,4 @@
-def call(x,y)
+def call()
 {
   
   def content1 = libraryResource "com/math/mul/script1.sh"
