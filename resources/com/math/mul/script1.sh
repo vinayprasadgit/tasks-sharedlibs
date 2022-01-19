@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export VAL1=$1
-export VAL2=$2
+export VAL1=4
+export VAL2=1
 
 # env.val1=$1
 # env.val2=$2
