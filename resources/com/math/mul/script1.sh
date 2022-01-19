@@ -1,8 +1,8 @@
-#!/bin/bash
+n#!/bin/bash
 
-val1=$1
-val2=$2
+env.val1=$1
+env.val2=$2
 
 echo "Hello"
-echo "$val1"
-echo "$val2"
+echo "$env.val1"
+echo "$env.val2"
