@@ -1,8 +1,11 @@
-n#!/bin/bash
+#!/bin/bash
 
-env.val1=$1
-env.val2=$2
+export VAL1=$1
+export VAL2=$2
+# env.val1=$1
+# env.val2=$2
 
 echo "Hello"
-echo "$env.val1"
-echo "$env.val2"
+echo "$VAL1"
+echo "$VAL2"
+
