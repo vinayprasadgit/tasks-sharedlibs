@@ -1,10 +1,9 @@
 #! /bin/bash
 
-source script1.sh
 
 echo "This is from script2"
-echo "$env.val1"
-echo "$env.val2"
+echo "$VAL1"
+echo "$VAL2"
 # sum=$(($val1 + $val2))
 
 # echo "$sum"
