@@ -6,7 +6,6 @@ then
   then 
     echo "you cannot have a version classifier when deploying"
   fi
-  
+fi
 echo "$1"
 echo "$2"
-
