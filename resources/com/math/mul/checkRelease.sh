@@ -8,7 +8,6 @@ then
   if [[ -n $versionClassifier  || ! -z $versionClassifier ]]
   then 
     echo "you cannot have a version classifier when deploying"
-    exit
   fi
 else
   if [ -z $versionClassifier ]
