@@ -8,6 +8,6 @@ then
   fi
 fi
 echo "$1"
-echo "dr"
-echo "vc"
+echo "$dr"
+echo "$vc"
 echo "$2"
