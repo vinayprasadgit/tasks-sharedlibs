@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [$1 == "true"]
+if [$1]
 then 
   if [-n $2 ]
   then 
