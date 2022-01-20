@@ -1,4 +1,4 @@
-def call(def deploy-release,def version-classifier)
+def call(deploy-release,version-classifier)
 {
   def content1 = libraryResource "com/math/mul/checkRelease.sh"
   writeFile file: "checkRelease.sh", text: content1
