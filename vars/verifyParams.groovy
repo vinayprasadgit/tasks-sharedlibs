@@ -8,8 +8,8 @@ def call(deployRelease,versionClassifier)
   sh "chmod a+x ./checkRelease.sh"
   sh "./checkRelease.sh $deployRelease $versionClassifier"
   
-  printf dr
-  printf vc
+  printf "from groovy "+dr
+  printf "from groovy "+vc
 }
   
   
