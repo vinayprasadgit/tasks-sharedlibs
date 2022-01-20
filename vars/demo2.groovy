@@ -9,7 +9,7 @@ def call()
   def content2 = libraryResource "com/math/mul/script2.sh"
   writeFile file: "script2.sh", text: content2
   sh "chmod a+x ./script2.sh"
-  sh "./script2.sh"
+//   sh "./script2.sh"
   
   
 }
