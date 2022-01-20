@@ -11,6 +11,7 @@ else
   if [ -z $2 ]
   then
      echo "Please Specify Version Classifier"
+  fi
 fi
 echo "$1"
 echo "$dr"
