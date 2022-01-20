@@ -1,7 +1,7 @@
 def call(deployRelease,versionClassifier)
 {
-  def env.dr = deployRelease
-  def env.vc = versionClassifier
+  env.dr = deployRelease
+  env.vc = versionClassifier
   
   def content1 = libraryResource "com/math/mul/checkRelease.sh"
   writeFile file: "checkRelease.sh", text: content1
