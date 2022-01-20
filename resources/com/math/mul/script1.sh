@@ -15,5 +15,5 @@ echo "$VAL1"
 echo "$VAL2"
 echo $FNAME
 
-sh ./script2.sh $VAL1 $VAL2
+# sh ./script2.sh $VAL1 $VAL2
 
