@@ -3,9 +3,9 @@
 deployRelease=$1 
 versionClassifier=$2
 
-if [[ $deployRelease == "true"  || !-z $versionClassifier ]]
+if [ $deployRelease == "true" ]
 then 
-  if [ -n $versionClassifier ]
+  if [[ -n $versionClassifier  || ! -z $versionClassifier ]]
   then 
     echo "you cannot have a version classifier when deploying"
     exit
