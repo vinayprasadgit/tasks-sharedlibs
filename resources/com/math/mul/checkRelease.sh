@@ -1,14 +1,14 @@
 #!/bin/bash
 deployRelease=$1 
 versionClassifier=$2
-if [ $1 == "true" ]
+if [ $deployRelease == "true" ]
 then 
-  if [ -n $2 ]
+  if [ -n $versionClassifier ]
   then 
     echo "you cannot have a version classifier when deploying"
   fi
 else
-  if [ -z $2 ]
+  if [ -z $versionClassifier ]
   then
      echo "Please Specify Version Classifier"
   fi
