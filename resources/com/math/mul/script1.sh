@@ -10,7 +10,7 @@ VAL1=5
 VAL2=50
 
 
-echo "Hello"
+echo "Hello from script1"
 echo "$VAL1"
 echo "$VAL2"
 echo $FNAME
