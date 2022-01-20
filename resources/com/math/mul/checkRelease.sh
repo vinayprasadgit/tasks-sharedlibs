@@ -1,6 +1,8 @@
 #!/bin/bash
+
 deployRelease=$1 
 versionClassifier=$2
+
 if [ $deployRelease == "true" ]
 then 
   if [ -n $versionClassifier ]
@@ -13,10 +15,3 @@ else
      echo "Please Specify Version Classifier"
   fi
 fi
-# echo "$1"
-# echo "$dr"
-# echo "$vc"
-# echo "$2"
-
-echo "$deployRelease"
-echo "$versionClassifier"
