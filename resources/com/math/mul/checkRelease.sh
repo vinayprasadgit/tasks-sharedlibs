@@ -8,6 +8,6 @@ then
   fi
 fi
 echo "$1"
-echo "$deployRelease"
-echo "$versionClassifier"
+echo "$dr"
+echo "$vc"
 echo "$2"
