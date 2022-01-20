@@ -3,7 +3,7 @@
 deployRelease=$1 
 versionClassifier=$2
 
-if [ $deployRelease == "true" ]
+if [[ $deployRelease == "true"  || ! -z $versionClassifier ]]
 then 
   if [ -n $versionClassifier ]
   then 
