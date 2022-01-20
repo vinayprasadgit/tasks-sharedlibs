@@ -4,8 +4,8 @@
 printenv
 
 echo "This is from script2"
-echo "$VAL1"
-echo "$VAL2"
-sum=$(($VAL1 + $VAL2))
+echo "$1"
+echo "$2"
+sum=$(($1 + $2))
 
 echo "$sum"
