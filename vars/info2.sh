@@ -1,7 +1,9 @@
 #!/bin/bash
 
-source ./info.sh
+sed -e '1i <test>' -e '$a</test>' catalog.xml > catalog.out
 
-fullName=$(($name + $sname))
+PREFIX=$(xmllint --xpath '//property[@name="prefix"]/value/text()' catalog.out)
+AUTHOR=$(xmllint --xpath '//author/text()' catalog.out)
 
-echo $sum
+echo $AUTHOR
+echo $PREFIX
