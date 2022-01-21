@@ -11,7 +11,11 @@ def call(deployRelease,versionClassifier)
   if (deployRelease == "false"){
     currentBuild.result='UNSTABLE'
   }
-  print "hello groovy"
+  else{
+    currentBuild.result='FAILED'
+  }
+    
+ 
 }
   
   
