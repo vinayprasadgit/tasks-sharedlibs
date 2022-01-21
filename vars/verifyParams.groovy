@@ -3,12 +3,14 @@ import org.apache.commons.lang.StringUtils
 
 def call(deployRelease,versionClassifier)
 {
+  def flag = deployRelease
+  
   def content1 = libraryResource "com/math/mul/checkRelease.sh"
   writeFile file: "checkRelease.sh", text: content1
   sh "chmod a+x ./checkRelease.sh"
   sh "./checkRelease.sh $deployRelease $versionClassifier"
   
-  if (deployRelease == 'false'){
+  if (flag == 'false'){
     currentBuild.result='UNSTABLE'
     print "from if"
   }
@@ -18,6 +20,7 @@ def call(deployRelease,versionClassifier)
 //   }
   
   print deployRelease
+  print flag
     
  
 }
