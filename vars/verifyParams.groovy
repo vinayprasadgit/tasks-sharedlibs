@@ -1,24 +1,16 @@
 
 def call(deployRelease,versionClassifier)
 {
-  def flag = deployRelease
   
   def content1 = libraryResource "com/math/mul/checkRelease.sh"
   writeFile file: "checkRelease.sh", text: content1
   sh "chmod a+x ./checkRelease.sh"
   sh "./checkRelease.sh $deployRelease $versionClassifier"
   
-  if (!flag){
-    currentBuild.result='UNSTABLE'
-    print "from if"
-  }
-//   else{
+//   if (!deployRelease){
 //     currentBuild.result='UNSTABLE'
-//     print "from else"
+//     print "from if"
 //   }
-  
-  print deployRelease
-  print flag
     
  
 }
