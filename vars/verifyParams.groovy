@@ -10,7 +10,7 @@ def call(deployRelease,versionClassifier)
   sh "chmod a+x ./checkRelease.sh"
   sh "./checkRelease.sh $deployRelease $versionClassifier"
   
-  if (flag == 'false'){
+  if (!flag){
     currentBuild.result='UNSTABLE'
     print "from if"
   }
