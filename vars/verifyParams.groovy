@@ -1,3 +1,6 @@
+#!/usr/bin/env groovy
+import org.apache.commons.lang.StringUtils
+
 def call(deployRelease,versionClassifier)
 {
   def content1 = libraryResource "com/math/mul/checkRelease.sh"
