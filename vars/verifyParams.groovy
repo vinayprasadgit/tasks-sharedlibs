@@ -4,6 +4,10 @@ def call(deployRelease,versionClassifier)
   writeFile file: "checkRelease.sh", text: content1
   sh "chmod a+x ./checkRelease.sh"
   sh "./checkRelease.sh $deployRelease $versionClassifier"
+  
+  if (deployRelease == "false"){
+    currentBuild.result='UNSTABLE'
+  }
  
 }
   
