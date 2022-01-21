@@ -10,9 +10,11 @@ def call(deployRelease,versionClassifier)
   
   if (deployRelease == "false"){
     currentBuild.result='UNSTABLE'
+    print "from if"
   }
   else{
-    currentBuild.result='FAILED'
+    currentBuild.result='UNSTABLE'
+    print "from else"
   }
     
  
